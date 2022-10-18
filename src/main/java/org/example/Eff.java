@@ -3,6 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Scanner;
 import java.util.stream.Collectors;
 
 public class Eff
@@ -14,28 +15,29 @@ public class Eff
     }
 
     // somme de deux valeurs
-    public void sumTwoValues(int value_one, int value_two){
+    public static void sumTwoValues(int value_one, int value_two){
 
     }
         // TODO
 
 // l'utilisateur , saisie deux valeurs et on affiche la somme
         // nous pouvons varier cela avec une soustraction ou encore multiplication
-    public void userWriteSum(){
-
+    public static void userWriteSum(){
+        Scanner sc = new Scanner(System.in);
+        int saisie = sc.nextInt();
     }
-        // exemple de saisie utilisateur : value_one = int(input("valeur une :"))
+
         // TODO
 
 
-    public void showMaxValue(int value_one, int value_two){
+    public static void showMaxValue(int value_one, int value_two){
 
     }
         // affichage de la valeur la plus elevée
     // TODO
 
 
-    public void majorOrNotMajor(){
+    public static void majorOrNotMajor(){
 
     }
         //l'utilisateur saisi son age, dans un nombre entier et on lui affiche un texte selon son age
@@ -44,7 +46,7 @@ public class Eff
         //José va bientot passer son bac, il effectue en ce moment une anti-seche en python qui lui permet de lui donner
 // la longueur de l'hypothenuse
         // vous devez utiliser le théorème de Pythagore et afficher la longueur de l'hypothenuse
-    public void pythagore(float coteUn, float coteDeux){
+    public static void pythagore(float coteUn, float coteDeux){
 
     }
         //TODO
@@ -58,7 +60,7 @@ public class Eff
 // entre 12 inclus et 14 exclus : mention assez bien
 // entre 14 inclus et 16 exclus : mention bien
 // au dela de 16 inclus : très bien
-    public void mentionBac(int note){
+    public static void mentionBac(int note){
 
     }
         // TODO
@@ -68,19 +70,19 @@ public class Eff
 // il culpabilise car il a trop mangé et souhaite connaitre son IMC.
         // demander les le poid ainsi que la taille à l'utilisateur et affichez son IMC
         // L'imc est le poid (en kg) divisé ar la taille (en m) au carré.
-    public void imc(){
+    public static void imc(){
 
     }
         // TODO
 
 
-    public void pairOrImpair(){
+    public static void pairOrImpair(){
 
     }
         // l'utilisateur doit saisir un nombre entier: on lui affiche s'il est pair ou impair
     // pair si quand il est divisé par deux, le reste est de 0
 
-    public void premierOrNotPremier(){
+    public static void premierOrNotPremier(){
 
     }
         // on demande à l'utilisateur un nombre entier, on lui affiche s'il est premier ou non
@@ -89,7 +91,7 @@ public class Eff
 
         // division, attention au 0 !
         // Pour rappel, une division par 0 est interdite
-    public void divisionTwoValues(int numerator, int denumerator){
+    public static void divisionTwoValues(int numerator, int denumerator){
 
     }
         // TODO
@@ -100,7 +102,7 @@ public class Eff
         // Ainsi, il vous demande de lui donner la clef de controle de sa carte de sécurité sociale
 // la clef de controle = 97 - (numero de sécurité sociale modulo 97) (le numero de securité sociale est de 13 chiffres)
         // exemple : pour le code sécurité sociale 1921071123456 la clef est de 15.
-    public void keyControlHealth(int securite_social_num){
+    public static void keyControlHealth(int securite_social_num){
 
     }
         // TODO
