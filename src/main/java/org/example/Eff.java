@@ -101,7 +101,7 @@ public class Eff
         // Ainsi, il vous demande de lui donner la clef de controle de sa carte de sécurité sociale
 // la clef de controle = 97 - (numero de sécurité sociale modulo 97) (le numero de securité sociale est de 13 chiffres)
         // exemple : pour le code sécurité sociale 1921071123456 la clef est de 15.
-    public static void keyControlHealth(int securite_social_num){
+    public static void keyControlHealth(int securiteSocialNum){
 
     }
 
