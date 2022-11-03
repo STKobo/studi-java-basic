@@ -15,41 +15,40 @@ public class Eff
     }
 
     // somme de deux valeurs
-    public static void sumTwoValues(int value_one, int value_two){
+    public static void sumTwoValues(int valueOne, int valueTwo){
 
     }
-        // TODO
 
-// l'utilisateur , saisie deux valeurs et on affiche la somme
+
+        // l'utilisateur , saisie deux valeurs et on affiche la somme
         // nous pouvons varier cela avec une soustraction ou encore multiplication
     public static void userWriteSum(){
         Scanner sc = new Scanner(System.in);
         int saisie = sc.nextInt();
     }
 
-        // TODO
+
 
 
     public static void showMaxValue(int value_one, int value_two){
-
-    }
         // affichage de la valeur la plus elevée
-    // TODO
+    }
 
 
+    //l'utilisateur saisi son age, dans un nombre entier et on lui affiche un texte selon son age
+    // si son age est à 18 ou plus : "Vous êtes majeur" , sinon, "vous êtes mineur !"
     public static void majorOrNotMajor(){
 
     }
-        //l'utilisateur saisi son age, dans un nombre entier et on lui affiche un texte selon son age
-        // si son age est à 18 ou plus : "Vous êtes majeur" , sinon, "vous êtes mineur !"
 
-        //José va bientot passer son bac, il effectue en ce moment une anti-seche en python qui lui permet de lui donner
-// la longueur de l'hypothenuse
+
+        //José va bientot passer son bac, il effectue en ce moment une anti-seche en Java qui lui permet de lui donner
+        // la longueur de l'hypothenuse
         // vous devez utiliser le théorème de Pythagore et afficher la longueur de l'hypothenuse
     public static void pythagore(float coteUn, float coteDeux){
 
     }
-        //TODO
+
 
 
 // José, désire un programme qui permet de lui donner la mention en fonction de la note
@@ -63,7 +62,7 @@ public class Eff
     public static void mentionBac(int note){
 
     }
-        // TODO
+
 
 
 //José, après avoir eu son bac, a fait une grosse fete
@@ -73,39 +72,38 @@ public class Eff
     public static void imc(){
 
     }
-        // TODO
 
 
+    // l'utilisateur doit saisir un nombre entier: on lui affiche s'il est pair ou impair
+    // pair si quand il est divisé par deux, le reste est de 0
     public static void pairOrImpair(){
 
     }
-        // l'utilisateur doit saisir un nombre entier: on lui affiche s'il est pair ou impair
-    // pair si quand il est divisé par deux, le reste est de 0
 
+    // on demande à l'utilisateur un nombre entier, on lui affiche s'il est premier ou non
+    // regle : un nombre est premier seulement s'il est divisible par 1 et lui-même , 1 exclu
     public static void premierOrNotPremier(){
 
     }
-        // on demande à l'utilisateur un nombre entier, on lui affiche s'il est premier ou non
-    // regle : un nombre est premier seulement s'il est divisible par 1 et lui-même , 1 exclu
 
 
-        // division, attention au 0 !
-        // Pour rappel, une division par 0 est interdite
+
+    // division, attention au 0
+    // Pour rappel, une division par 0 est interdite
     public static void divisionTwoValues(int numerator, int denumerator){
 
     }
-        // TODO
+
 
 
 //José est revenu pour nous tester un peu !
-        // Il a constaté que vous avez fait pas mal d'exercice en Python.
+        // Il a constaté que vous avez fait pas mal d'exercice en Java.
         // Ainsi, il vous demande de lui donner la clef de controle de sa carte de sécurité sociale
 // la clef de controle = 97 - (numero de sécurité sociale modulo 97) (le numero de securité sociale est de 13 chiffres)
         // exemple : pour le code sécurité sociale 1921071123456 la clef est de 15.
     public static void keyControlHealth(int securite_social_num){
 
     }
-        // TODO
 
 }
 
