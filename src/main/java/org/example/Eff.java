@@ -174,8 +174,29 @@ public class Eff
         for (double i : notes){
             somme += i;
         }
+        return somme / notes.length; 
+    }
 
-       
+    public static boolean isPair (int nombre) {
+        boolean result = false;
+        if(nombre % 2 == 0) {
+            result = true ;
+        }
+        return result; 
+    }
 
+
+    public static boolean isPrime(int nombre){
+        boolean result = true;
+        if(nombre == 1) {
+            result = false;
+        } else {
+            for(int i = 2; i <= Math.sqrt(nombre); i++){
+                if(nombre % i == 0){
+                    result = false;
+                }
+            }
+        }
+        return result; 
+    }
 }
-
