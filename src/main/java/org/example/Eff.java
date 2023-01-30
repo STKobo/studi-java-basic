@@ -133,12 +133,24 @@ public class Eff
         nom = nom.toLowerCase();
         String prenomReverse = "";
         boolean result = true; 
-        for (int i = prenom.length() -1; i>=0; i--){
-            prenomReverse = prenomReverse + prenom.charAt(i);
+
+        /*
+         * for (int i = prenom.length() -1; i>=0; i--){
+                prenomReverse = prenomReverse + prenom.charAt(i);
+            }
+            if(nom.equals(prenomReverse)){
+                result = false;
+            }
+         */
+        
+        //deuxième écriture 
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append(prenom);
+        stringBuilder = stringBuilder.reverse();
+        if(!stringBuilder.toString().equals(nom)){
+            return false;
         }
-        if(nom.equals(prenomReverse)){
-            result = false;
-        }
+        
         return result;
 
     }
