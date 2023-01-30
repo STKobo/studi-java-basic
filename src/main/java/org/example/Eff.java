@@ -199,4 +199,20 @@ public class Eff
         }
         return result; 
     }
+
+    public static double division(int numerator, int denumerator){
+        double result = 0.0;
+        /*
+         * if(denumerator != 0){
+            result = (double) numerator/denumerator;
+        }
+         */
+        
+         try {
+            result = (double) numerator / denumerator;
+         } catch (ArithmeticException e){
+            System.out.println("Division by 0, impossible :" + e);
+         }
+        return result;
+    }
 }
