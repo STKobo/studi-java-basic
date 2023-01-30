@@ -155,5 +155,27 @@ public class Eff
 
     }
 
+    public static int countOccurenceOfLetter(String sentence, char letter) {
+        int cpt = 0;
+        for( int i = 0; i < sentence.length(); i++) {
+            if(sentence.charAt(i) == letter) cpt ++;
+        }
+        return cpt;
+    }
+
+    public static double avgArrayNote(double[] notes)
+    {
+        double somme = 0;
+        /*
+         * for(int i = 0; i < notes.length; i++){
+            somme += notes[i]; 
+        }
+         */
+        for (double i : notes){
+            somme += i;
+        }
+
+       
+
 }
 

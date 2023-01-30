@@ -15,9 +15,9 @@ public class AppTest
      *
      * @param testName name of the test case
      */
-    public AppTest( String testName )
+    public void avgArrayNote()
     {
-        super( testName );
+        
     }
 
     /**
@@ -35,4 +35,6 @@ public class AppTest
     {
         assertTrue( true );
     }
+
+    
 }
