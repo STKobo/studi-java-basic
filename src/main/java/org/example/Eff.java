@@ -128,5 +128,20 @@ public class Eff
 
     }
 
+    public static boolean isPalindrome(String prenom, String nom) {
+        prenom = prenom.toLowerCase();
+        nom = nom.toLowerCase();
+        String prenomReverse = "";
+        boolean result = true; 
+        for (int i = prenom.length() -1; i>=0; i--){
+            prenomReverse = prenomReverse + prenom.charAt(i);
+        }
+        if(nom.equals(prenomReverse)){
+            result = false;
+        }
+        return result;
+
+    }
+
 }
 
