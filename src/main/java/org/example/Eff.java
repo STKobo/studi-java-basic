@@ -11,12 +11,15 @@ public class Eff
 
     public static void main( String[] args )
     {
-
+        sumTwoValues(5, 10);
+        showMaxValue(10, 30);
     }
 
     // somme de deux valeurs
     public static void sumTwoValues(int valueOne, int valueTwo){
-
+        int somme = 0;
+        somme = valueOne + valueTwo; 
+        System.out.println(somme);
     }
 
 
@@ -24,7 +27,11 @@ public class Eff
         // nous pouvons varier cela avec une soustraction ou encore multiplication
     public static void userWriteSum(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("Entrez la première valeur : ");
         int saisie = sc.nextInt();
+        System.out.println("Entrez la deuxième valeur : ");
+        int saisieTwo = sc.nextInt();
+        sumTwoValues(saisie, saisieTwo);
     }
 
 
@@ -32,13 +39,29 @@ public class Eff
 
     public static void showMaxValue(int value_one, int value_two){
         // affichage de la valeur la plus elevée
+        if(value_one > value_two){
+            System.out.println(value_one);
+        } else if (value_two > value_one) {
+            System.out.println(value_two);
+        } else {
+            System.out.println("Valeur identique");
+        }
     }
 
 
     //l'utilisateur saisi son age, dans un nombre entier et on lui affiche un texte selon son age
     // si son age est à 18 ou plus : "Vous êtes majeur" , sinon, "vous êtes mineur !"
     public static void majorOrNotMajor(){
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Entrez votre âge : ");
+        Float age = sc.nextFloat();
+        if(age >= 18){
+            System.out.println("Je suis majeur");
+        } else if (age < 18) {
+            System.out.println("je suis mineur");
+        } else {
+            System.out.println("Impossible");
+        }
     }
 
 
